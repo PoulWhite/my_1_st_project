@@ -50,15 +50,13 @@ void Set0(int X, int Y){
 }
 
 int main(){
-   /* int X = GetPointX();
-    int Y = GetPointY();
-    printf("%d %d\n", X, Y); */
+    int X = 0, Y = 0;
+    printf("Please enter x and y coordinats\n");
     FillaAll('.');
     DrawGame();
-    printf("________\n\n");
-    Set0(0 , 1);
-    SetX(1, 0);
+    X = GetPointX();
+    Y = GetPointY();
+    SetX(X,Y);
     DrawGame();
-
     return 0;
 }
