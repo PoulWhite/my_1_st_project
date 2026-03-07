@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-char GameFeeld[3][3]{{'1','2','3'},{'4','5','6'},{'7','8','9'}};
-char Buffer[64]{};
+char GameFeeld[3][3] = {{'1','2','3'},{'4','5','6'},{'7','8','9'}};
+char Buffer[64] = {};
 
 void FillaAll(char symbol){
     for(int y = 0; y<3; y++){
